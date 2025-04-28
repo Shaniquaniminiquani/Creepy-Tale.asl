@@ -1,4 +1,4 @@
-# Fractured-Minds.asl
+# Creepy-Tale.asl
 LiveSplit autosplitter for the latest version of [Creepy Tale](https://store.steampowered.com/app/1224020/Creepy_Tale/). **Any other version _will not_ work**
 
 ## Features:
