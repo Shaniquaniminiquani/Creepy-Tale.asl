@@ -10,15 +10,15 @@ state("CreepyTale")
 
 start
 {
-    if (current.intro != 256 && current.levelNumber != 0 && old.levelNumber == 0) {
+	if (current.intro != 256 && current.levelNumber != 0 && old.levelNumber == 0) {
 		return true;
 	}
 }
 
 split
 {
-    if (old.levelNumber != 8 && current.levelNumber != old.levelNumber) {
-        return true;
+	if (old.levelNumber != 8 && current.levelNumber != old.levelNumber) {
+        	return true;
 	} else {
 		if (current.levelNumber == 0 && current.menu == 530) {
 			return true;
@@ -28,7 +28,7 @@ split
 
 reset
 {
-    if (current.menu == 0) {
+	if (current.menu == 0) {
 		return true;
 	}
 }
